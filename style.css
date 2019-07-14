@@ -1,0 +1,603 @@
+body{
+	background: url(images/7.jpg);
+}
+
+/* header area design */
+.header-area{
+	padding: 20px;
+	background:rgb(31, 32, 37, .7);
+	box-shadow:0px 4px 50px rgb(31, 32, 37, .8);
+}
+.main-menu ul{
+	float: right;
+	margin-top: 12px;
+}
+.main-menu ul li{
+	list-style: none;
+}
+.main-menu ul li a{
+	padding: 5px 18px;
+	color: #fff;
+	font-size: 16px;
+	border-radius: 5px;
+	text-transform: uppercase;
+	text-decoration:none;
+}
+.main-menu ul li a:hover, .main-menu ul li a.active{
+	background: #CE0B83;
+}
+.second{
+	background: rgb(30, 31, 37,.6);
+	padding-top: 100px;
+	padding-bottom: 50px;
+}
+.header-bottom{
+	padding: 100px 0;
+	text-align: center;
+	font-style: italic;
+}
+.header-bottom h3{
+	color:#fff;
+	font-size: 40px;
+}
+
+.call-to-action-header{
+	margin-top: 50px;
+}
+
+.call-to-action-header a{
+	background:#f5f6fa;
+	padding:18px 50px;
+	color: black;
+	font-size: 18px;
+	border-radius: 5px;
+	margin-top: 20px;
+	display: inline-block;
+	box-shadow: 0px 4px 0px #dcdde1;
+	text-decoration: none;
+}
+.call-to-action-header a:hover{
+	background: #dcdde1;
+}
+
+
+/* header area end here */
+
+/* services area design start from here */
+
+.services-area{
+	background:rgb(23,194,164, .5);
+	padding: 60px 0px;
+}
+.services-area .container > h2{
+	font-size: 42px;
+	margin: 0;
+	padding-top: 50px;
+	color: #fff;
+	text-align: center;
+	letter-spacing: 3px;
+}
+.services-area hr{
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	border-bottom: 5px solid #14a58c;
+	width: 10%;
+}
+.services-area .container > p{
+	font-size: 18px;
+	color: #fff;
+	text-align: center;
+}
+.services-box{
+	text-align: center;
+	margin-top: 50px;
+}
+
+.services-box .box h2{
+	color: #fff;
+	font-size:24px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	margin-top: 20px;
+}
+.services-box .box p{
+	color: #fff;
+	font-size: 16px;
+}
+/* team area start from here */
+
+
+
+.team-area{
+	background:rgb(37,204,247,.4);
+	padding: 60px 0px;
+}
+.team-area .middle-area > h2{
+	font-size: 42px;
+	margin: 0;
+	padding-top: 50px;
+	color: #3c4761;
+	text-align: center;
+	letter-spacing: 3px;
+}
+
+.team-area .middle-area > h4{
+	font-size: 18px;
+	margin: 0;
+	padding-top: 15px;
+	color: #3c4761;
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+.team-area hr{
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	border-bottom: 5px solid rgb(37,204,247);
+	width: 10%;
+	padding-top: 10px;
+}
+
+.team-box{
+	text-align: center;
+	margin-top: 50px;
+	margin: auto;
+}
+
+.team-box .box h2{
+	color: #3c4761;
+	font-size:24px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	margin-top: 20px;
+}
+.team-box .box p{
+	color: #3c4761;
+	font-size: 16px;
+	line-height: 27px;
+}
+
+.team-box .box .pic{
+	width: 200px;
+	height: 200px;
+	margin: auto;
+}
+
+.team-box .box .pic img{
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+}
+
+.box h3{
+	color: #1B9CFC;
+	font-size: 16px;
+}
+
+.social-link ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	
+}
+
+.social-link ul li{
+	display: inline-block;
+}
+
+.social-link ul li i{
+	color: #fff;
+	background: #bdd1df;
+	height: 30px;
+	width: 30px;
+	padding: 5px;
+	font-size: 20px;
+	border-radius: 50%;
+}
+.team-area .border{
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	border-bottom: 5px solid red;
+}
+
+
+/* team area design end here */
+
+/* skil area design start from here */
+
+.skil-area{
+	background:rgb(255,255,255,.2);
+	padding: 60px 0px;
+}
+.skil-area .middle-area > h2{
+	font-size: 42px;
+	margin: 0;
+	padding-top: 50px;
+	color: #626a7d;
+	text-align: center;
+	letter-spacing: 3px;
+}
+.skil-area hr{
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	border-bottom: 5px solid #d1ccc0;
+	width: 10%;
+}
+.skil-area .middle-area > p{
+	font-size: 18px;
+	color: #3c4761;
+	margin: auto;
+	width: 65%;
+	text-align: center;
+}
+.skil-box{
+	text-align: center;
+	margin-top: 50px;
+}
+
+.skil-box .box h2{
+	color: #3c4761;
+	font-size:24px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	margin-top: 10px;
+}
+.skil-box .box p{
+	color: #fff;
+	font-size: 16px;
+}
+/* jquery plugins */
+
+.pie-title-center {
+  display: inline-block;
+  position: relative;
+  text-align: center;
+}
+.pie-value {
+  display: block;
+  position: absolute;
+  font-size: 40px;
+  height: 40px;
+  top: 50%;
+  left: 0;
+  right: 0;
+  margin-top: -20px;
+  line-height: 40px;
+  color: #3c4761;
+  font-family: light;
+
+}
+
+
+
+/* portfilo area design start from here */
+
+.port-area{
+	background:rgb(255,221,153,.5);
+	padding: 60px 0px;
+}
+.port-area .middle-area > h2{
+	font-size: 40px;
+	margin: 0;
+	padding-top: 50px;
+	color: #393939;
+	text-align: center;
+	letter-spacing: 3px;
+}
+.port-area hr{
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	border-bottom: 5px solid #e5c37f;
+	width: 10%;
+}
+.port-area .middle-area > p{
+	font-size: 18px;
+	color: #393939;
+	margin: auto;
+	width: 55%;
+	text-align: center;
+}
+.port-box{
+	text-align: center;
+	margin-top: 50px;
+}
+.port-box .box{
+	margin: inherit;
+	margin: auto;
+}
+.port-box .box h2{
+	color: #393939;
+	font-size:18px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: normal;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+.port-box .box p{
+	color: #fff;
+	font-size: 16px;
+}
+
+.port-img{
+	width: 500px;
+}
+
+.port-img img{
+	width: 100%;
+}
+
+.port-menu ul{
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+.port-menu ul li{
+	display: inline-block;
+}
+
+.port-menu ul li a{
+	padding: 7px 20px;
+	margin-top: 30px;
+	margin-left: 5px;
+	background: #ebc985;
+	display: block;
+	color: #393939;
+	font-size: 16px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+.port-menu ul li a:hover{
+	background:#fff;
+}
+
+.call-to-action-port a{
+	background:#f7f1e3;
+	padding:18px 45px;
+	color: #2C3A47;
+	font-size: 18px;
+	border-radius: 5px;
+	margin-top: 20px;
+	display: inline-block;
+	box-shadow: 0px 4px 0px #d1ccc0;
+	text-decoration: none;
+}
+.call-to-action-port a:hover{
+	background: #d1ccc0;
+}
+
+
+/* about area design start from here */
+
+.about-area{
+	background:rgb(215,70,128, .5);
+	padding-top: 60px;
+}
+.about-area .middle-area > h2{
+	font-size: 40px;
+	margin: 0;
+	padding-top: 50px;
+	color: #fff;
+	text-align: center;
+	letter-spacing: 3px;
+}
+.about-area hr{
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	border-bottom: 5px solid #b73c6d;
+	width: 10%;
+	margin-top: 15px;
+}
+.about-area .middle-area > p{
+	font-size: 18px;
+	color: #fff;
+	margin: auto;
+	width: 55%;
+	text-align: center;
+	margin-top: 20px;
+}
+
+.about-img{
+	width: 100px;
+	height: 100px;
+	float: left;
+	overflow: hidden;
+	border-radius: 50%;
+	margin-right: 30px;
+}
+
+.about-img img{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+.about-box{
+	text-align: left;
+	margin-top: 100px;
+	text-align: center;
+}
+.about-box .box{
+	padding-right: 10px;
+	margin-bottom: 100px;
+}
+
+.box .text q{
+	color: #fff;
+	font-size: 21px;
+}
+
+.box .text h2{
+	color: #fff;
+	font-size: 24px;
+}
+
+.box .text h3{
+	color: #fff;
+	font-size: 18px;
+}
+
+.box .text{
+	text-align: left;
+	width: 380px;
+	overflow: hidden;
+}
+
+.box .text q{
+	font-style: italic;
+}
+
+
+/* contact area design start from here */
+
+.contact-area{
+	background:rgb(60,84,153,.6);
+	padding: 60px 0px;
+}
+.contact-area .middle-area > h2{
+	font-size: 40px;
+	margin: 0;
+	padding-top: 50px;
+	color: #fff;
+	text-align: center;
+	letter-spacing: 3px;
+}
+.contact-area hr{
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	border-bottom: 5px solid #273a71;
+	width: 10%;
+	margin-top: 15px;
+}
+.contact-area .middle-area > p{
+	font-size: 18px;
+	color: #fff;
+	margin: auto;
+	text-align: center;
+	margin-top: 20px;
+}
+
+
+.box:after{
+	content: ' ';
+	display: block;
+	clear: both;
+}
+
+
+.box input{
+	font-size: 20px;
+	padding: 18px;
+	color: #fff;
+	background: rgb(60,84,153,.7);
+	margin-top: 60px;
+	border: 1px solid transparent;
+	box-sizing: border-box;
+	border-radius: 5px;
+	width: 100%;
+}
+
+::placeholder {
+  color: #fff; 
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+ color: #fff;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+ color: #fff;
+}
+
+
+
+.contact-box .first-1{
+	padding: 0;
+}
+
+.contact-box .second-2{
+	padding-right: 0;
+}
+
+.contact-box textarea{
+	font-size: 20px;
+	padding: 18px;
+	color: #fff;
+	background: rgb(60,84,153,.7);
+	margin-top: 20px;
+	border: 1px solid transparent;
+	box-sizing: border-box;
+	border-radius: 5px;
+	text-align: left;
+} 
+
+.call-to-action-contact input{
+	background:#7d5fff;
+	padding:18px 45px;
+	color: #fff;
+	font-size: 18px;
+	border-radius: 5px;
+	margin-top: 50px;
+	display: inline-block;
+	box-shadow: 0px 4px 0px #7158e2;
+	border: 1px solid transparent;
+}
+.call-to-action-contact input:hover{
+	background: #7158e2;
+}
+
+.call-to-action-contact{
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+ 
+/* footer area start from here */
+
+.footer-area{
+	background: rgb(52,75,142,.8);
+}
+
+.middle-area{
+	width: 80%;
+	margin: auto;
+}
+
+.footer-menu ul {
+
+	list-style: none;
+	margin: 0;
+	padding: 40px 0px;
+	text-align: center;
+}
+
+.footer-menu ul li{
+	display: inline-block;
+}
+
+.footer-menu ul li a{
+	color: #fff;
+	padding: 18px;
+	font-size: 24px;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.footer-menu ul li a:hover{
+	color: #30bae7;
+}
+
+
+
+
+
+
+
+
